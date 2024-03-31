@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,14 +11,15 @@ body{
 
 header{
     background-image: url(../IMAGENS/a9a43dded7f382bf783d78481a699f0d.jpg);
-    background-size: cover;
-    width: 412px;
+    background-size: auto;
+    width: 100vw;
     height: 15vh;
     color: white;
     text-align: center;
 }
 
-header > h1{
+header> h1{
+    text-align: center;
     padding-top: 15px;
 }
 
@@ -129,3 +132,4 @@ div#header{
     height: 460px;
     transform: translate(-60%,-30%);
   }
+
